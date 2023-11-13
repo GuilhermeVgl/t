@@ -25,12 +25,12 @@ export default function Footer() {
                   rel="noreferrer"
                   aria-label="linkedin"
                 >
-                  <AiFillLinkedin className="sm:text-lg" />
+                  <AiFillLinkedin className="sm:text-4xl" />
                 </a>
               </li>
               <li>
                 <a href={siteMetadata.github} target="_blank" rel="noreferrer" aria-label="github">
-                  <FaGithub className="sm:text-lg" />
+                  <FaGithub className="sm:text-4xl" />
                 </a>
               </li>
             </ul>

@@ -25,10 +25,10 @@ export default function AuthorLayout({ children, content }: Props) {
         <div>
           <Image
             alt="Guilherme"
-            height={130}
-            width={130}
+            height={190}
+            width={210}
             src={avatar || ''}
-            className="rounded-full object-scale-down grayscale"
+            className="rounded-t-lg object-scale-down"
           />
         </div>
       </div>

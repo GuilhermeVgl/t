@@ -38,7 +38,7 @@ module.exports = {
       },
       colors: {
         primary: {
-          500: '#FFEB49',
+          500: '#a8a8ed',
         },
         secondary: {
           500: '#B8A200',

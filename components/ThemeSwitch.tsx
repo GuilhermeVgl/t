@@ -24,7 +24,7 @@ const ThemeSwitch = () => {
         transition: { duration: 0.2 },
       }}
       whileHover={{ scale: 1.2 }}
-      onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+      onClick={() => setTheme(resolvedTheme === 'dark' ? 'dark' : 'dark')}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
