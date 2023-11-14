@@ -5,14 +5,8 @@ import AuthorLayout from '@/layouts/MDX/AuthorLayout';
 import MainLayout from '@/layouts/MainLayout';
 import { allAuthors } from 'contentlayer/generated';
 import useDownloader from 'react-use-downloader';
-import { useEffect } from 'react';
 
 export default function About() {
-  useEffect(() => {
-    document.title = 'About - Guilherme Vieira';
-    return () => {
-    };
-  }, []); 
   
   const { download } = useDownloader(); 
 
@@ -31,7 +25,7 @@ export default function About() {
         <AuthorLayout content={author}>
           <MDXLayoutRenderer content={author} />
         </AuthorLayout>
-        <button className="button" onClick={() => download(fileUrl, filename)}>Download</button>
+        <button className="download-button button" onClick={() => download(fileUrl, filename)}>Download</button>
       </MainLayout>
     </main>
   );

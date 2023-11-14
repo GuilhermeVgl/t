@@ -7,7 +7,7 @@ const siteMetadata = {
   theme: 'dark', // system, dark or light
   siteUrl: 'https://guilhermevgl.github.io/Portfolio/',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.webp',
+  image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'guilhermeharfy@gmail.com',
   github: 'https://github.com/GuilhermeVgl',

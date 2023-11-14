@@ -22,7 +22,7 @@ return (
             <p className="full-width">
               <textarea id="message" className="block w-full text-white bg-black rounded-lg" name="message" placeholder="I'd like to chat about" required></textarea>
             </p>
-              <button className="button end-2" type="submit">Send</button>
+              <button className="send-button button end-2" type="submit">Send</button>
           </form>
         </div>
         <div className="relative overflow-hidden" id="map">
