@@ -1,7 +1,7 @@
 import siteMetadata from 'content/siteMetadata';
 import Link from 'next/link';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaGoogle, FaWhatsapp, FaWhatsappSquare } from 'react-icons/fa';
 import SectionContainer from './SectionContainer';
 
 export default function Footer() {
@@ -25,12 +25,24 @@ export default function Footer() {
                   rel="noreferrer"
                   aria-label="linkedin"
                 >
-                  <AiFillLinkedin className="sm:text-4xl" />
+                  <AiFillLinkedin className="sm:text-4xl hover:fill-icons-linkedin easeinout" />
                 </a>
               </li>
               <li>
                 <a href={siteMetadata.github} target="_blank" rel="noreferrer" aria-label="github">
-                  <FaGithub className="sm:text-4xl" />
+                  <FaGithub className="sm:text-4xl hover:fill-icons-github easeinout" />
+                </a>
+              </li>
+              
+              <li>
+                <a href={siteMetadata.google} target="_blank" rel="noreferrer" aria-label="github">
+                  <FaGoogle className="sm:text-4xl hover:fill-icons-google easeinout" />
+                </a>
+              </li>
+
+              <li>
+                <a href={siteMetadata.whatsapp} target="_blank" rel="noreferrer" aria-label="github">
+                  <FaWhatsapp className="sm:text-4xl hover:fill-icons-whatsapp easeinout" />
                 </a>
               </li>
             </ul>

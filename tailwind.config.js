@@ -37,8 +37,14 @@ module.exports = {
         'gradient-3-end': '#2D00F7',
       },
       colors: {
+        icons: {
+          linkedin: '#0E76A8',
+          github: '#fafaf9',
+          whatsapp: '	#25d366',
+          google: '#c71610'
+        },
         primary: {
-          500: '#a8a8ed',
+          500: 'rgb(132, 132, 132)',
         },
         secondary: {
           500: '#B8A200',

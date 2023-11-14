@@ -12,6 +12,8 @@ const siteMetadata = {
   email: 'guilhermeharfy@gmail.com',
   github: 'https://github.com/GuilhermeVgl',
   linkedin: 'https://www.linkedin.com/in/guilherme-vieira-de-freitas/',
+  google: 'mailto:guilhermeharfy@gmail.com',
+  whatsapp: 'https://api.whatsapp.com/send?phone=5567984158359&text=Hello%20Guilherme!%0AId%20Like%20to%20talk%20about...',
   locale: 'en-US',
   comment: {
     provider: 'giscus',

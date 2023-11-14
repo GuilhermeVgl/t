@@ -4,10 +4,10 @@ import React from "react";
   
 export default function Contact() {
 return (
-  <div className="contain">
+  <div className="contain min-h-fit mx-auto">
     <div className="wrapper">
       <div className="form">
-        <h1 className="text-4xl font-semibold" style={{ marginBottom: '1em'}}>Talk with me</h1>
+        <h1 className="text-4xl font-semibold" style={{ marginBottom: '1em'}}>Let's talk!</h1>
         <form id="submit-form" action="https://formspree.io/f/mbjvelbj" method="POST">
           <p>
             <input id="name" className="block w-full text-white bg-black rounded-lg form-input" name="name" placeholder="My Name is" required/>

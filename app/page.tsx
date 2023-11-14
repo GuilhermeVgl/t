@@ -3,6 +3,7 @@ import Intro from '@/components/Intro';
 import Projects from '@/components/Projects/Projects';
 import { ScrollProvider } from '@/components/Providers/ScrollProvider';
 import MainLayout from '@/components/layouts/MainLayout';
+import Developer from '@/components/Developer';
 
 export default function Page() {
   return (
@@ -10,15 +11,16 @@ export default function Page() {
       <Hero />
       <Intro />
       <MainLayout>
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5 ">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-            Projects
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Showcase of Featured Projects.
-          </p>
-        </div>
-        <Projects />
+          <div className="space-y-2 pt-6 pb-8 md:space-y-5 ">
+            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+              Projects
+            </h1>
+            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+              Showcase of Featured Projects.
+            </p>
+          </div>
+          <Projects />
+        <Developer />
       </MainLayout>
     </ScrollProvider>
   );
