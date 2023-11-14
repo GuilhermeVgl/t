@@ -26,11 +26,13 @@ export default function About() {
   }
 
   return (
-    <MainLayout>
-      <AuthorLayout content={author}>
-        <MDXLayoutRenderer content={author} />
-      </AuthorLayout>
-      <button className="button" onClick={() => download(fileUrl, filename)}>Download</button>
-    </MainLayout>
+    <main className='grainy-background min-h-screen'>
+      <MainLayout>
+        <AuthorLayout content={author}>
+          <MDXLayoutRenderer content={author} />
+        </AuthorLayout>
+        <button className="button" onClick={() => download(fileUrl, filename)}>Download</button>
+      </MainLayout>
+    </main>
   );
 }

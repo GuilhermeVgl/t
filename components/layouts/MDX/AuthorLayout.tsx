@@ -28,7 +28,7 @@ export default function AuthorLayout({ children, content }: Props) {
             height={190}
             width={210}
             src={avatar || ''}
-            className="rounded-t-lg object-scale-down"
+            className="rounded-t-lg object-scale-down grayscale"
           />
         </div>
       </div>

@@ -15,7 +15,7 @@ export default function Projects() {
   const [modal, setModal] = useState<ProjectModal>({ active: false, index: 0 });
 
   return (
-    <>
+    <main>
       {projects.map((project, index) => (
         <motion.div
           key={project.title}
@@ -33,6 +33,6 @@ export default function Projects() {
         </motion.div>
       ))}
       {breakpoint === 'desktop' && <ProjectPreview modal={modal} projects={projects} />}
-    </>
+    </main>
   );
 }

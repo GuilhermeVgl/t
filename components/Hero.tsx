@@ -25,7 +25,7 @@ export default function Hero(): ReactElement {
   }, []);
 
   return (
-    <div>
+    <div className='grainy-header'>
       <h1 className="sr-only">
         Hello I'm Guilherme Vieira, I'm a software developer, and I love building things for the web.
       </h1>
