@@ -5,7 +5,6 @@ import Link from 'next/link';
 import CommandPalette from './CommandPalette/CommandPalette';
 import MobileNav from './MobileNav';
 import SectionContainer from './SectionContainer';
-import ThemeSwitch from './ThemeSwitch';
 
 export default function Header() {
   return (
