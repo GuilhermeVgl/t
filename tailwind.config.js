@@ -40,7 +40,7 @@ module.exports = {
         icons: {
           linkedin: '#0E76A8',
           github: '#fafaf9',
-          whatsapp: '	#25d366',
+          whatsapp: '#25d366',
           google: '#c71610'
         },
         primary: {

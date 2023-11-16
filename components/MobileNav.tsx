@@ -85,7 +85,7 @@ export default function MobileNav() {
                 href="/"
                 onClick={() => setNavShow(!navShow)}
                 className={classNames(
-                  'horizontal-underline font-bold tracking-widest text-gray-900 backdrop:text-2xl dark:text-gray-100',
+                  'underlineOpen font-bold tracking-widest text-gray-900 backdrop:text-2xl dark:text-gray-100',
                   { 'underlineOpen': pathName === '/' }
                 )}
               >
@@ -101,8 +101,8 @@ export default function MobileNav() {
                     href={href}
                     onClick={() => setNavShow(!navShow)}
                     className={classNames(
-                      'horizontal-underline font-bold tracking-widest text-gray-900 backdrop:text-2xl dark:text-gray-100',
-                      { 'horizontal-underline-active': active }
+                      'underlineOpen font-bold tracking-widest text-gray-900 backdrop:text-2xl dark:text-gray-100',
+                      { 'underlineOpen': active }
                     )}
                     aria-label={title}
                   >
