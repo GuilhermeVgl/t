@@ -16,7 +16,7 @@ export default function Header() {
               <Link
                 href="/"
                 aria-label="d."
-                className="text-3xl font-extrabold sm:block underlineOpen "
+                className="text-3xl font-extrabold sm:block underlineOpen"
               >
                 Guilherme V.
               </Link>
@@ -26,7 +26,7 @@ export default function Header() {
                 {headerNavLinks.map(({ title, href, className }) => {
                   return (
                     <Link prefetch key={title} href={href} className={className} aria-label={title}>
-                      <span className="font-semibold tracking-wide text-gray-900 dark:text-gray-100 underlineOpen">
+                      <span className={`font-semibold tracking-wide ${title === 'Contact me' ? 'underlineHyper' : 'underlineOpen'}`}>
                         {title}
                       </span>
                     </Link>

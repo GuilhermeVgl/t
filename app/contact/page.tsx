@@ -1,6 +1,6 @@
 import MainLayout from "@/components/layouts/MainLayout";
 import siteMetadata from "@/content/siteMetadata";
-import { FaMapPin, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaEnvelopeOpen, FaEnvelopeOpenText, FaMapMarkedAlt, FaMapMarker, FaMapMarkerAlt, FaMapPin, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
 
@@ -22,29 +22,24 @@ return (
                     <p> I'd Like to talk about
                       <textarea id="message" className="w-full block text-white bg-black rounded-lg" name="message" required></textarea>
                     </p> <br></br>
-                      <button className="send-button button" type="submit">Send</button>
+                      <button className="send-button" type="submit">Send</button>
               </form>
             </div>
             <div className="text-center">
-              <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">Let's Talk!</h1>
-                <ul className="flex flex-col items-center justify-center text-center">
-                  <li className="flex items-center">
-                    <b rel="noreferrer" className="flex items-center font-normal">
-                      <FaTelegramPlane className="sm:text-4xl hover:fill-icons-email icons" />
-                      <b className="font-semibold mx-auto">Email: </b> guilhermeharfy@gmail.com
+              <h1 className="text-4xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+                Let's <b className="dark:text-primary-600 underline talk">Talk!</b>
+              </h1>
+                <ul className="grid flex-col items-center justify-center text-center py-4">
+                  <li className="py-2">
+                    <b rel="noreferrer" className="flex items-center">
+                      <FaMapMarkerAlt className="sm:text-4xl icons" />
+                      <b className="font-normal"> Campo Grande MS - Brazil </b>
                     </b>
                   </li>
-                  <li>
-                    <b rel="noreferrer" className="flex items-center font-normal">
-                      <FaMapPin className="sm:text-4xl hover:fill-icons-pin icons" />
-                      <b className="font-semibold mx-auto">Address: </b> Campo Grande MS - Brazil
-                    </b>
-                  </li>
-
-                  <li>
-                    <b rel="noreferrer" className="flex items-center font-normal">
-                      <FaWhatsapp className="sm:text-4xl hover:fill-icons-whatsapp icons" />
-                      <b className="font-semibold">Whatsapp:</b>Text me clicking: <a href={siteMetadata.whatsapp} className="font-semibold mx-auto cursor-pointer underlineOpen">HERE</a>
+                  <li className="py-2">
+                    <b rel="noreferrer" className="flex items-center">
+                      <FaWhatsapp className="sm:text-4xl icons" />
+                      <b className="font-normal">Text me clicking: <a href={siteMetadata.whatsapp} className="font-semibold cursor-pointer underlineHyper dark:text-primary-600">HERE</a></b>
                     </b>
                   </li>
                 </ul> 

@@ -45,6 +45,7 @@ module.exports = {
         },
         primary: {
           500: 'rgb(132, 132, 132)',
+          600: '#ff2a00',
         },
         secondary: {
           500: '#B8A200',

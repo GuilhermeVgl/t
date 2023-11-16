@@ -6,7 +6,6 @@ import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
 import { ScrollContext } from './Providers/ScrollProvider';
 import { renderCanvas } from './renderCanvas';
 import Link from 'next/link';
-import useDownloader from "react-use-downloader"; 
 
 
 export default function Hero(): ReactElement {
@@ -37,10 +36,10 @@ export default function Hero(): ReactElement {
                 <b className="firstName">Guilherme</b> <b className="surname">Vieira</b>
               </h1>
               <h2 className="text-3xl font-large sm:text-6xl md:text-3xl xl:text-4xl odyssey">
-                The Odyssey of a Software engineer.
+                The <b className='dark:text-primary-600'>Odyssey</b> of a <b className='dark:text-primary-600'>Software engineer</b>.
               </h2>
-              <button className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl font-semibold underlineOpen readMore">
-                <Link href="/about">Read more about me &rarr;</Link>
+              <button className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl font-semibold underlineHyper readMore">
+                <Link href="/about" className="dark:text-primary-600">Read more about me &rarr;</Link>
               </button>
             </div>
             <motion.div

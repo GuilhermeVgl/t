@@ -25,7 +25,7 @@ export default function About() {
         <AuthorLayout content={author}>
           <MDXLayoutRenderer content={author} />
         </AuthorLayout>
-        <button className="download-button button" onClick={() => download(fileUrl, filename)}>Download</button>
+        <button className="send-button" onClick={() => download(fileUrl, filename)}>Download</button>
       </MainLayout>
     </main>
   );

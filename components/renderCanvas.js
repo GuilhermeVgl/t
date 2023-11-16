@@ -105,7 +105,7 @@ function render() {
     ctx.globalCompositeOperation = 'source-over';
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.globalCompositeOperation = 'lighter';
-    ctx.strokeStyle = 'hsla(' + Math.round(f.update()) + ',90%,50%,0.25)';
+    ctx.strokeStyle = 'hsla(' + (60 + Math.round(f.update())) + ',90%,50%,0.25)';
     ctx.lineWidth = 1;
     for (var e, t = 0; t < E.trails; t++) {
       (e = lines[t]).update();
