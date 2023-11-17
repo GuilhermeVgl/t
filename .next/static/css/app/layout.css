@@ -2869,11 +2869,6 @@ input:-webkit-autofill:focus {
   color: rgb(255 42 0 / var(--tw-text-opacity));
 }
 
-:is(.dark .dark\:text-white) {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 @media (min-width: 640px) {
 
   .sm\:mt-10 {
