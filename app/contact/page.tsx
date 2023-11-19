@@ -1,13 +1,13 @@
 import MainLayout from "@/components/layouts/MainLayout";
 import siteMetadata from "@/content/siteMetadata";
-import { FaEnvelope, FaEnvelopeOpen, FaEnvelopeOpenText, FaMapMarkedAlt, FaMapMarker, FaMapMarkerAlt, FaMapPin, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
+import { FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
 
 return (
     <main className="grainy-header min-h-screen mt-11 mx-auto items-center align-center w-full">
       <MainLayout>
-        <div className="flex flex-auto w-full py-4 px-4">
+        <div className="flex w-full py-4 px-4 max-lg:flex-col">
             <div className="w-full">
               <form id="submit-form" className="custom-form" action="https://formspree.io/f/mbjvelbj" method="POST">
                     <p className=""> My name is

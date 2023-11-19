@@ -5,7 +5,7 @@ export default function FourZeroFour() {
     <main className="grainy-header min-h-screen">
       <SectionContainer>
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-4xl font-extrabold leading-9 tracking-tight dark:text-primary-600 md:border-r-2 md:px-6 md:text-8xl md:leading-14">
+          <h1 className="not-found-title mb-8 font-extrabold leading-9 tracking-tight dark:text-primary-600 md:border-r-2 md:px-6 md:text-8xl md:leading-14">
             404
           </h1>
         </div>

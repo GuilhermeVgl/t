@@ -258,7 +258,6 @@ pre[class*='language-'] {
 }
 
 .underlineHyper {
-  color: #ff2a00;
   cursor: pointer;
   position: relative;
   border: none;
@@ -557,14 +556,14 @@ a {
   text-decoration: none !important;
 }
 
+.a:hover {
+  color: #ff2a00 !important;
+}
+
 .send-button {
   display: inline-block;
 }
 
-.talk {
-  text-decoration: underline;
-}
-
-.new {
-  font-size: 99em;
+.not-found-title {
+  font-size: 8em;
 }

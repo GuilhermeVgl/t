@@ -23,7 +23,7 @@ export default function AuthorLayout({ children, content }: Props) {
           </h2>
         </div>
       </div>
-  <div className="flex items-center text-xl">
+  <div className="flex items-center text-xl max-lg:flex-col">
     <div>
       <p>
         I am currently a{' '}
@@ -35,16 +35,14 @@ export default function AuthorLayout({ children, content }: Props) {
         among other responsibilities. Additionally, I've developed projects supporting  <b className="font-semibold dark:text-primary-600">over 50,000 users</b>.
         I specialize in crafting robust solutions using a versatile stack, including <b className="font-semibold dark:text-primary-600">Java </b> and 
         <b className="font-semibold dark:text-primary-600"> Spring Boot</b> for backend development, 
-        <b className="font-semibold dark:text-primary-600"> PHP</b> and <b className="font-semibold dark:text-primary-600">Laravel</b> for dynamic web applications, and a front-end blend of 
-        <b className="font-semibold dark:text-primary-600"> TailwindCSS, Bootstrap, AngularJS, Javascript And TypeScript</b>.
+        <b className="font-semibold"> PHP</b> and <b className="font-semibold">Laravel</b> for dynamic web applications, and a front-end blend of 
+        <b className="font-semibold"> TailwindCSS, Bootstrap, AngularJS, Javascript And TypeScript</b>.
       </p>
     </div>
     <img
       alt="Guilherme"
-      height={210}
-      width={250}
       src={'/static/images/avatar.png' || ''}
-      className="rounded-t-lg object-scale-down"
+      className="w-60 h-60 rounded-t-lg object-scale-down max-lg:w-40 max-lg:h-40 max-lg:mb-4"
     />
   </div>
       <div className="prose max-w-none pb-8 text-justify text-sm dark:prose-dark md:text-lg xl:col-span-2">

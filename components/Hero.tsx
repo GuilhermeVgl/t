@@ -36,10 +36,10 @@ export default function Hero(): ReactElement {
                 <b className="firstName">Guilherme</b> <b className="surname">Vieira</b>
               </h1>
               <h2 className="text-3xl font-large sm:text-6xl md:text-3xl xl:text-4xl odyssey">
-                The <b className='dark:text-primary-600'>Odyssey</b> of a <b className='dark:text-primary-600'>Software engineer</b>.
+                The Odyssey of a <b className='dark:text-primary-600'>Software engineer</b>.
               </h2>
               <button className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl font-semibold underlineHyper readMore">
-                <Link href="/about" className="dark:text-primary-600">Read more about me &rarr;</Link>
+                <Link href="/about"><b className="dark:text-primary-600 underline">Read more</b> about me &rarr;</Link>
               </button>
             </div>
             <motion.div

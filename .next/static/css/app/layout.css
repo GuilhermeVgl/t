@@ -291,7 +291,6 @@ pre[class*='language-'] {
 }
 
 .underlineHyper {
-  color: #ff2a00;
   cursor: pointer;
   position: relative;
   border: none;
@@ -590,12 +589,16 @@ a {
   text-decoration: none !important;
 }
 
+.a:hover {
+  color: #ff2a00 !important;
+}
+
 .send-button {
   display: inline-block;
 }
 
-.talk {
-  text-decoration: underline;
+.not-found-title {
+  font-size: 8em;
 }
 /*!**************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./css/tailwind.css ***!
@@ -1863,6 +1866,9 @@ select {
 .h-screen {
   height: 100vh;
 }
+.h-60 {
+  height: 15rem;
+}
 .min-h-\[40vh\] {
   min-height: 40vh;
 }
@@ -1890,6 +1896,9 @@ select {
 }
 .w-screen {
   width: 100vw;
+}
+.w-60 {
+  width: 15rem;
 }
 .max-w-3xl {
   max-width: 48rem;
@@ -2290,6 +2299,9 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline {
+  text-decoration-line: underline;
 }
 .no-underline {
   text-decoration-line: none;
@@ -2867,6 +2879,25 @@ input:-webkit-autofill:focus {
 :is(.dark .dark\:text-primary-600) {
   --tw-text-opacity: 1;
   color: rgb(255 42 0 / var(--tw-text-opacity));
+}
+
+@media not all and (min-width: 1024px) {
+
+  .max-lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .max-lg\:h-40 {
+    height: 10rem;
+  }
+
+  .max-lg\:w-40 {
+    width: 10rem;
+  }
+
+  .max-lg\:flex-col {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 640px) {
