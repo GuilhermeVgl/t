@@ -10,8 +10,8 @@ export default function About() {
   
   const { download } = useDownloader(); 
 
-  const fileUrl = "/static/files/LucasMontano-CV.pdf"; 
-  const filename = "LucasMontano-CV.pdf"; 
+  const fileUrl = "/static/files/GuilhermeVieira-curriculum.pdf"; 
+  const filename = "GuilhermeVieira-curriculum.pdf"; 
 
   const author = allAuthors.find((p) => p.slug === 'about');
 
