@@ -564,3 +564,7 @@ a {
 .talk {
   text-decoration: underline;
 }
+
+.new {
+  font-size: 99em;
+}
